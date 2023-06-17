@@ -1,10 +1,9 @@
 ---
 title: Srushti Ayurvedalaya
-layout: page
+layout: home
 description: Helping you build your holistic health and wellness.
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: false
-intro_image_hide_on_mobile: true
+intro_image: "images/logo/logo_backup.jpg"
+
 show_call_box: true
 ---
 

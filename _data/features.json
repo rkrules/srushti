@@ -1,7 +1,7 @@
 [
   {
-    "title": "Massage Therapy",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "Clinic",
+    "description": "Consultation for illness and health",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -9,8 +9,8 @@
     }
   },
   {
-    "title": "",
-    "description": "All members of our team are certified accountants.",
+    "title": "Therapies",
+    "description": "Intensive therapies such as Panchakarma.",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -18,8 +18,17 @@
     }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Medicines",
+    "description": "Medicines available on the premise",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Yoga",
+    "description": "Yoga sessions will be conducted on demand.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,

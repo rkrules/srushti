@@ -3,7 +3,7 @@ title: "Dr Megha"
 date: 2018-11-19T10:47:58+10:00
 image: "images/team/nonsap-visuals-kMJp7620W6U-unsplash.jpg"
 jobtitle: "Ayurveda Doctor"
-linkedinurl: ""
+linkedinurl: "https://www.facebook.com/srushtiayurvedalaya"
 weight: 7
 ---
 

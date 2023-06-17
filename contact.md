@@ -3,14 +3,18 @@ title: Contact
 layout: contact
 description: Contact
 ---
+## Address
+#1301, 19th main, HBR layout, 5th Block, Bangalore - 560043
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+## Hours
 
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+| --------- | ---------------  | -----------------|
+| Day       | Morning Hours    | Afternoon Hours  |
+| --------- | ---------------  | -----------------|
+| Monday    | 10:30am - 2:00pm | 5:00pm - 8:00pm  |
+| Tuesday   | 10:30am - 2:00pm | 5:00pm - 8:00pm  |
+| Wednesday | 10:30am - 2:00pm | 5:00pm - 8:00pm  |
+| Thursday  | 10:30am - 2:00pm | 5:00pm - 8:00pm  |
+| Friday    | 10:30am - 2:00pm | 5:00pm - 8:00pm  |
+| Saturday  | 10:30am - 2:00pm | 5:00pm - 8:00pm  |
+| Sunday    |      Closed      |     Closed       |
