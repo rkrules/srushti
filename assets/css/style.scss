@@ -7,7 +7,7 @@
 //$secondary: #f88379;
 //$primary-dark:#05668d;
 $primary:#006539;
-$white-offset: #009FE2;
+$white-offset: lightgrey;
 $primary-dark:#009FE2;
 $secondary:#f0f3bd;
 $black: #2f2f41;
@@ -34,7 +34,7 @@ $sub-footer-text-color: $white;
 @import "bootstrap-variables";
 @import "bootstrap/bootstrap-reboot";
 @import "bootstrap/bootstrap-grid";
-// @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
+//@import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
 
 // Libraries
 @import "libraries/hamburgers/hamburgers";

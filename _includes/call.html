@@ -1,7 +1,32 @@
+<style>
+  .stickyButton {
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+    /* Initially hide the button */
+    z-index: 9999;
+  }
+</style>
+
+<script>
+  window.addEventListener('scroll', function () {
+    var button = document.getElementById('stickyButton');
+    if (window.scrollY > 100) {
+      button.style.display = 'block';
+    } else {
+    }
+  });
+
+  document.getElementById('stickyButton').addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
 <div class="call">
   <div class="call-box-top">
     {% if site.data.contact.phone %}
-        <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+    <strong>Phone: </strong>
+    <a href="tel:{{ site.data.contact.phone }}" class="call-phone"> {{ site.data.contact.phone }}</a>
     {% endif %}
     {% if site.data.contact.email %}
     <div class="call-email"><strong>Email: </strong>
@@ -11,9 +36,9 @@
     </div>
     {% endif %}
   </div>
-    {% if include.show_button %}
-      <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
-      </div>
-    {% endif %}
+  {% if include.show_button %}
+  <div class="call-box-bottom stickyButton">
+    <a href="contact" class="button">Contact & Hours </a>
+  </div>
+  {% endif %}
 </div>

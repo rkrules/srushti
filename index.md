@@ -2,12 +2,11 @@
 title: Srushti Ayurvedalaya
 layout: home
 description: Helping you build your holistic health and wellness.
-intro_image: "images/logo/logo_backup.jpg"
-
+intro_image: "images/logo/fire_water.png"
 show_call_box: true
 ---
 
-# Srushti Ayurvedalaya 
+![](/images/logo/logo_srushti.png){:class="full-width"}
 
 Book your appointment today. 
 

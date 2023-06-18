@@ -1,5 +1,4 @@
 .call {
-  position: relative;
   overflow: hidden;
   background-color: $white-offset;
   border-radius: 4px;
@@ -9,7 +8,7 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  z-index: 2;
+  z-index: 1002;
   @include media-breakpoint-up(sm) {
     align-items: center;
     flex-direction: row;
@@ -22,11 +21,11 @@
     }
   }
   .call-box-bottom {
-    flex: auto;
+    flex: 2 0  auto;
     padding: 20px;
     border-top: 1px solid darken($white-offset, 5%);
     @include media-breakpoint-up(sm) {
-      flex: 0 0 auto;
+      flex: 2 0 auto;
       border: none;
     }
   }
