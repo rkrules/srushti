@@ -6,3 +6,16 @@ https://cloudcannon.com/tutorials/jekyll-tutorial/introduction-to-blogging/
 
 https://www.digitalocean.com/community/tutorials/workflow-resizing-images-with-imagemagick
 https://kaeruct.github.io/posts/how-to-show-preview-images-when-sharing-links-of-your-website.html
+
+
+Requirements:
+- add padding top for image on homepage [done]
+- add map
+- add sitemap
+- add meta 
+- sticky button or header
+- lightspeed score
+- change logo to colorful one
+- blog template
+- more description from facebok
+- search console
