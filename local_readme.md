@@ -1,3 +1,10 @@
+---
+title: Requirements
+layout: page
+sitemap: 
+    exclude: 'yes'
+---
+
 https://prose.io/#rkrules/srushti/edit/master/_posts/2014-3-3-Hello-World.md
 https://github.com/skills/github-pages  course
 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll

@@ -1,3 +1,10 @@
+---
+title: Learning Log
+layout: page
+sitemap: 
+    exclude: 'yes'
+---
+
 ## Tutorials
 - https://happycoding.io/tutorials/html/jekyll#:~:text=The%20output%20of%20Jekyll%20is%20plain%20old%20HTML%20files.
 - https://github.com/collections/github-pages-examples
