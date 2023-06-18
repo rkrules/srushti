@@ -19,9 +19,11 @@
     right: 0;
   }
   &.is-active {
+    .hamburger-inner,
     .hamburger-inner::after {
       width: inherit;
       right: unset;
+    background: $primary;
     }
   }
 }
