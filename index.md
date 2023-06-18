@@ -8,5 +8,5 @@ show_call_box: true
 
 ![](/images/logo/logo_srushti.png){:class="full-width"}
 
-Book your appointment today. 
+Book your appointment today and take care of your health and wellness. 
 
