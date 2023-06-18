@@ -18,3 +18,11 @@ description: Contact
 | Friday    | 10:30am - 2:00pm | 5:00pm - 8:00pm  |
 | Saturday  | 10:30am - 2:00pm | 5:00pm - 8:00pm  |
 | Sunday    |      Closed      |     Closed       |
+
+## Directions & Reviews
+
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.961013589446!2d77.62785941744384!3d13.038153600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae170402d4d383%3A0xdf391a262874d602!2sSrushti%20Ayurvedalaya!5e0!3m2!1sen!2sus!4v1687106643533!5m2!1sen!2sus"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
