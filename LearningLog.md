@@ -31,6 +31,7 @@ https://www.sociablekit.com/free-widgets/
 http://www.independent-software.com/generating-a-sitemap-xml-with-jekyll-without-a-plugin.html
 https://jsinibardy.com/optimize-seo-jekyll
 http://aramzs.github.io/jekyll/schema-dot-org/2018/04/27/how-to-make-your-jekyll-site-structured.html
+https://www.danielsieger.com/blog/2020/12/14/jekyll-website-performance-improvement.html
 
 ## Colors
 https://coolors.co/image-picker
