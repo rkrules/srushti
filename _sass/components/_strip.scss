@@ -29,6 +29,18 @@
   background-color: $secondary;
 }
 
+.strip-color-five {
+  background-color: $color-five;
+}
+.strip-color-four {
+  background-color: $color-four;
+}
+.strip-color-three {
+  background-color: $color-three;
+}
+.strip-color-two {
+  background-color: $color-two;
+}
 .strip-diagonal-right {
   margin-top: -100px;
   transform: skewY(-5deg);
