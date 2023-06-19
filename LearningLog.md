@@ -24,7 +24,7 @@ https://github.com/sfarrens/jekyll_tutorial
 https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/
 https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
 
-## SEO
+## SEO / Performance
 https://github.com/pmarsceill/jekyll-seo-gem
 https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
 https://www.sociablekit.com/free-widgets/
@@ -47,7 +47,9 @@ https://color.adobe.com/create/color-contrast-analyzer
 https://www.aleksandrhovhannisyan.com/blog/improve-page-load-speed-in-jekyll-using-the-webp-image-format/
 https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-and-weblog-posts-with-markdown-monster-9ec6f353d8ec
 https://picsvg.com/
-
+https://ausi.github.io/respimagelint/
+https://github.com/valerijaspasojevic/jekyll-compress-images - plugin didn't work
+src set not tired yet
 
 # Sticky Div (couldn't do)
 https://www.w3docs.com/tools/code-editor/9895
