@@ -16,13 +16,15 @@ https://kaeruct.github.io/posts/how-to-show-preview-images-when-sharing-links-of
 
 
 Requirements:
-- add padding top for image on homepage [done]
-- add map
-- add sitemap
-- add meta 
-- sticky button or header
 - lightspeed score
-- change logo to colorful one
 - blog template
 - more description from facebok
 - search console
+- add meta [added a plugin]
+- add padding top for image on homepage [done]
+- add map [done]
+- add sitemap [done]
+- sticky button or header [done]
+- change logo to colorful one [done]
+- change link to button for call [done]
+- change email to whatsapp [done]
