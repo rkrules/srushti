@@ -29,10 +29,12 @@ margin: auto;
 
 .button_small {
   text-align: center;
+  margin: auto;
   white-space: nowrap;
   display: inline-block;
+  width: 100%;
   line-height: 20px;
-  padding: 8px 24px;
+  padding: 8px;
   //box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   background: $primary;
   border-radius: 4px;

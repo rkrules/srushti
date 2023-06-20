@@ -3,10 +3,10 @@ permalink: pretty
 title: 'Srushti Ayurvedalaya'
 
 logo:
-  mobile: "images/logo/fire_water.png"
+  mobile: "images/logo/logo.webp"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/fire_water.png"
+  desktop: "images/logo/logo.webp"
   desktop_height: "32px"
   desktop_width: "64px"
 
