@@ -38,7 +38,8 @@ sass:
 plugins:
   - jekyll-environment-variables
   - jekyll-compress-images
-
+  - jekyll-seo-tag
+  
 compress_images:
   images_path: "images/logo/*.{gif,png,jpg,jpeg,svg}"
 
