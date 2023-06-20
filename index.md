@@ -4,6 +4,7 @@ layout: home
 description: Helping you build your holistic health and wellness.
 intro_image: "images/logo/fire_water.png"
 intro_image_webp: "images/logo/fire_water.png.webp"
+ 
 show_call_box: true
 ---
 <h1>
