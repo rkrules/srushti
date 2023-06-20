@@ -72,3 +72,6 @@ https://github.com/pmarsceill/jekyll-seo-gem
 https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
 https://www.geeksforgeeks.org/how-to-install-jekyll-seo-tag/amp/
 https://www.john-cd.com/cheatsheets/Markup_and_Documentation/Jekyll/
+
+# Bundler install issues
+https://medium.com/@circleninja/resolving-ruby-bundler-install-issues-in-mac-os-380be471bfb0 (thanks so much)
