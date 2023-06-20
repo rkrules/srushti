@@ -70,5 +70,9 @@ https://github.com/dellaert/gh-pages-jekyll-react
 https://github.com/mhanberg/jekyll-tailwind-starter
 https://github.com/pmarsceill/jekyll-seo-gem
 https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
+https://stackoverflow.com/questions/53638446/jekyll-seo-tag-doesnt-work-within-github-pages -- thanks so much
 https://www.geeksforgeeks.org/how-to-install-jekyll-seo-tag/amp/
 https://www.john-cd.com/cheatsheets/Markup_and_Documentation/Jekyll/
+
+# Bundler install issues
+https://medium.com/@circleninja/resolving-ruby-bundler-install-issues-in-mac-os-380be471bfb0 (thanks so much)
