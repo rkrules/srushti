@@ -1,0 +1,101 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+
+<div class="intro">
+  <div class="row justify-content-start">
+    {% if page.intro_image %}
+    <div class="col-12 col-md-12 col-lg-12 position-relative">
+      <picture>
+        <source srcset="{{ page.intro_image_webp | relURL }}" type="image/webp">
+        <img alt="{{ page.title }}"
+          class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
+          src="{{ page.intro_image | relURL }}" />
+        <div class="overlay-text">
+          <div class="pt-2 col-12 col-md-12 col-lg-12 position-absolute" style="width: 100%';">
+            {{ content }}
+            {% if page.show_call_box %}
+            {% include call.html show_button=true %}
+            {% endif %}
+          </div>
+        </div>
+      </picture>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<!-- 
+<div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      {% assign limit = site.home.limit_services | default: 6 %}
+      {% for service in site.services limit: limit %}
+      <div class="col-12 col-md-4 mb-1">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+            </h2>
+            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ " services" | relative_url }}">View All Services</a>
+      </div>
+    </div>
+  </div>
+</div>
+ -->
+
+
+{% if site.data.features %}
+<div class="strip strip-grey">
+  <div class="container pb-6 pt-md-2 pb-md-10">
+    <h2> Services </h2>
+    <div class="row justify-content-center">
+
+      {% for feature in site.data.features %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if feature.image %}
+          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}"
+              width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ feature.title }}</h2>
+          <div class="feature-content">{{ feature.description }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="container pt-2 ">
+  <h2> Directions & Reviews </h2>
+  <a
+    href="https://maps.google.com/maps/dir//Srushti+Ayurvedalaya+1301,+19th+Main+Rd,+opp.+to+40th+Cross+Road,+5th+Block,+HBR+Layout+Bengaluru,+Karnataka+560043+India/@13.0381536,77.6300481,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bae170402d4d383:0xdf391a262874d602">
+    <span class="button_small" style="width:50%;">
+      Directions
+    </span>
+  </a>
+  <div class="row justify-content-start">
+    <div class="pt-2 col-12 col-md-7 col-lg-6 " style="width: 100%';">
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.961013589446!2d77.62785941744384!3d13.038153600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae170402d4d383%3A0xdf391a262874d602!2sSrushti%20Ayurvedalaya!5e0!3m2!1sen!2sus!4v1687106643533!5m2!1sen!2sus"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+    </div>
+
+  </div>
+</div>

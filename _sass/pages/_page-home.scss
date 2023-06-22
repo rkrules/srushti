@@ -1,2 +1,14 @@
 .page-home {
 }
+.overlay-text {
+    @include media-breakpoint-up(md){
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    }
+
+}
