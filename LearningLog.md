@@ -82,3 +82,10 @@ https://jsinibardy.com/optimize-seo-jekyll#google-analytics-tracking jekyll seo 
 
 # Bundler install issues
 https://medium.com/@circleninja/resolving-ruby-bundler-install-issues-in-mac-os-380be471bfb0 (thanks so much)
+
+6.24
+- Used tinyimg
+- installed script to do image gallery , didn't work
+- need to look into this https://images.weserv.nl/
+- try this https://dmnfarrell.github.io/software/jekyll-galleries
+- tried this https://jekyllcodex.org/without-plugin/image-gallery/#

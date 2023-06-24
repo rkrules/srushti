@@ -80,8 +80,9 @@ bodyClass: "page-home"
   
   {% for item in site.data.team %}
   <div class="strip strip-grey">
-    <div class="container pb-6 pt-4 pt-md-4 pb-md-10"> 
-      <h2> Your Doctor </h2>
+    <div class="container pb-6 pt-4 pt-md-4"> 
+      <h2> Your Doctor :{{ item.title }} </h2>
+
       <div class="row justify-content-center">
         
         
@@ -89,30 +90,34 @@ bodyClass: "page-home"
           <div class="feature-image"><img class="lazyload" alt="{{ item.title }} logo"
             src="{{item.image.url | relative_url }}" width="{{ item.image.width }}"
             height="{{ item.image.height }}" /></div>
-            <h2 class="feature-title">{{ feature.title }}</h2>
           </div>
           <div class="col-12 col-md-6 col-lg-6 mb-2">
             <div class="feature-content">{{ item.description }}</div>
           <p> Dr Megha KS (BAMS) has been practiciing Ayurveda for 15+ years. Therapies including <strong>PANCHAKARMA</strong> are
             available to
             treat</p>
-         <p><ul>
-          <li>Gynaecological Disorders</li>
-          <li>Arthritis, Rheumatic Arthritis, Other Joint Pains</li>
-          <li>Skin Disorders - Psoriasis, Eczema, etc</li>
-          <li>Asthma, Sinusitis, Tonsillitis</li>
-          <li>Over weight (Obesity), Hyper &amp; Hypothyroidism</li>
-          <li>Migraine</li>
-          <li>Gastritis, Acidity, Irritational Bowl Syndrome</li>
-          <li>Hairfall, pimples, black marks</li>
+         <p><ul class="home-ul">
+          <li class="home-li">Gynaecological Disorders</li>
+          <li class="home-li">Arthritis, Rheumatic Arthritis, Other Joint Pains</li>
+          <li class="home-li">Skin Disorders - Psoriasis, Eczema, etc</li>
+          <li class="home-li">Asthma, Sinusitis, Tonsillitis</li>
+          <li class="home-li">Over weight (Obesity), Hyper &amp; Hypothyroidism</li>
+          <li class="home-li">Migraine</li>
+          <li class="home-li">Gastritis, Acidity, Irritational Bowl Syndrome</li>
+          <li class="home-li">Hairfall, pimples, black marks</li>
         </ul>
       </p>
                  <p> <strong>Swarna Prashana</strong> will be given to children every month on *Pushya Nakshatra* - No appointments necessary.
           </p>
           </div>
         </div>
-        
+      "Srushti Ayurvedalaya is located in HBR Layout, close to IT Hub of Bangalore “Manyatha Tech Park”. The founding doctor,
+      Dr. Megha K S is an alumnus of ALN Rao Memorial Ayurveda medical College & carries over 15 years of consulting experience
+      at some of the best Ayurvedic Centres of South India. She has been a topper in her academics & has won many awards &
+      accolades during her tenure as Ayurveda Consultant. Dr. Megha is a trained Panchakarma Specialist from Kerala & also
+      specialises in identification & correction of Gynaecological issues for Women."
       </div>
+      
     </div>
   </div>   
   {% endfor %}
@@ -137,7 +142,7 @@ bodyClass: "page-home"
     </div>
     
   <div class="col-12 col-md-6 col-lg-6 mb-2">
-    
+    {% include image_gallery.html folder="/images/reviews" %}
   </div>
 </div>
 </div>
