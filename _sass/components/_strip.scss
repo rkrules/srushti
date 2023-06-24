@@ -6,10 +6,13 @@
   background-color: white;
 }
 .strip-grey {
-  background-color: lightgray;
+  background-color: lightyellow;
 }
 .strip-color-five {
   background-color: $color-five;
+}
+.strip-color-prim {
+  background-color: $primary;
 }
 .strip-diagonal {
   transform: skewY(5deg);
