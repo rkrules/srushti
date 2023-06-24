@@ -1,5 +1,10 @@
 [
   {
+    "name": "WhatsApp",
+    "link": "https://wa.me/919980616152?text=Question_from_website_visitor",
+    "image": "images/social/whatsapp.svg"
+  },
+  {
     "name": "Facebook",
     "link": "https://www.facebook.com/srushtiayurvedalaya/",
     "image": "images/social/facebook.svg"
@@ -8,10 +13,5 @@
     "name": "Instagram",
     "link": "https://www.instagram.com/srushtiayurvedalaya/",
     "image": "images/social/instagram.svg"
-  },
-  {
-    "name": "WhatsApp",
-    "link": "https://wa.me/919980616152?text=Question_from_website_visitor",
-    "image": "images/social/whatsapp.svg"
   }
 ]

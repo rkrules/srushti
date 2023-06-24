@@ -1,7 +1,7 @@
 ---
-title: Srushti Ayurvedalaya - Consult Dr Megha for cures to ailments, joint pains & Panchakarma.
+title: Srushti Ayurvedalaya - Consult Dr Megha at 919980616152 for Ayurvedic treatments.
 layout: home2
-description: Helping you build your holistic health and wellness. Call 919980616152 today to schedule an appointment with Dr Megha.
+description: Panchakarma, Swarna Prashana, Weight Loss, Joint pain treatments.
 intro_image: "/images/cover.jpeg"
 intro_image_webp: "/images/cover.jpeg"
 image:
