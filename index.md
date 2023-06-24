@@ -4,7 +4,10 @@ layout: home2
 description: Helping you build your holistic health and wellness.
 intro_image: "/images/cover.jpeg"
 intro_image_webp: "/images/cover.jpeg"
- 
+image:
+  path: /images/logo/srushti_og.png
+  height: 1080
+  weight: 2754
 show_call_box: true
 ---
 
