@@ -1,38 +1,83 @@
 [
   {
-    "title": "Clinic",
-    "description": "Consultation for illness and health",
+    "title": "Consultation",
+    "description": "Treatment for all ailments, mainly focussing on joints pain, back ache, skin diseases, metabolic diseases and menstrual diseases.",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
+      "url": "images/team/drmegha.jpeg",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Therapies",
-    "description": "Intensive therapies such as Panchakarma.",
+    "title": "Swarnaprashana",
+    "description": "Monthly immunity booster medicines given to children.",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
+      "url": "images/features/swarna.jpg",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Medicines",
-    "description": "Medicines available on the premise",
+    "title": "Panchakarma",
+    "description": "Panchakarma - five detoxification intense therapies- Vamana, Virechana, Basti, Nasya, Raktamokshana",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/massage2.jpg",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Yoga",
-    "description": "Yoga sessions will be conducted on demand.",
+    "title": "Oil Massage",
+    "description": "Regular oil massage with steam",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/oil.jpg",
       "width": 80,
       "height": 80
     }
+  },
+  {
+    "title": "Udwartana",
+    "description": "Powder massage for weight loss",
+    "image": {
+      "url": "images/features/gradient.png",
+      "width": 80,
+      "height": 80
+    }
+  },
+{
+  "title": "Pinda Sweda",
+  "description": "Different types of pottali massages usually given for joints pain",
+  "image": {
+    "url": "images/features/gradient1.png",
+    "width": 80,
+    "height": 80
   }
+},
+{
+  "title": "Shirodhara",
+  "description": "Treatment for Insomnia, hypertension etc",
+  "image": {
+    "url": "images/features/gradient2.png",
+    "width": 80,
+    "height": 80
+  }
+},
+{
+  "title": "Seka/Dhara ",
+  "description": "For skin diseases. Oil Dhara for injuries like ligament tear",
+  "image": {
+    "url": "images/features/gradient3.png",
+    "width": 80,
+    "height": 80
+  }
+},
+{
+  "title": "Uttara Basti ",
+  "description": "For gynaecological problems",
+  "image": {
+    "url": "images/features/massage.jpg",
+    "width": 80,
+    "height": 80
+  }
+}
 ]

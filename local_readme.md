@@ -19,6 +19,10 @@ Requirements:
 - lightspeed score
 - blog template
 - more description from facebok
+- scheduler
+- Contact form
+- image cdn/optimization/lazy load
+- lazyscript [done]
 - search console
 - add meta [added a plugin]
 - add padding top for image on homepage [done]
