@@ -1,0 +1,27 @@
+.mycard {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.mycard img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+// .card img {
+//     background-image: url({{ 'background-image.jpg' | asset_path }});
+//     /* Other styles */
+// }
+.mycard-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
