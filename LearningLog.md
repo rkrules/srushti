@@ -89,3 +89,9 @@ https://medium.com/@circleninja/resolving-ruby-bundler-install-issues-in-mac-os-
 - need to look into this https://images.weserv.nl/
 - try this https://dmnfarrell.github.io/software/jekyll-galleries
 - tried this https://jekyllcodex.org/without-plugin/image-gallery/#
+- https://benhoyt.com/writings/tools-i-use-to-build-my-website/ 
+- Look into this https://stackoverflow.com/questions/45983301/google-pagespeed-eliminate-render-blocking-resources-above-the-fold-caused-fro
+- Look into this https://placid.app/tools/free-open-graph-image-generator?utm_source=socialsharepreview&utm_medium=footer_og_image_generator&utm_campaign=permanent
+- https://socialsharepreview.com/?url=https://srushtiayurvedalaya.com/ thansk
+- https://jsinibardy.com/optimize-seo-jekyll#reduce-image-size check this
+- check this https://mdigi.tools/gradient-generator/
