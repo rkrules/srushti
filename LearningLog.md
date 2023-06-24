@@ -73,6 +73,12 @@ https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
 https://stackoverflow.com/questions/53638446/jekyll-seo-tag-doesnt-work-within-github-pages -- thanks so much
 https://www.geeksforgeeks.org/how-to-install-jekyll-seo-tag/amp/
 https://www.john-cd.com/cheatsheets/Markup_and_Documentation/Jekyll/
+https://mademistakes.com/
+https://psyteachr.github.io/webexercises/reference/hide.html button to reveal content
+https://mademistakes.com/articles/using-jekyll-2017/ optimizing and optimizing build
+https://github.com/addyosmani/critical/blob/master/README.md optimize basic
+https://www.aleksandrhovhannisyan.com/blog/improve-page-load-speed-in-jekyll-using-the-webp-image-format/ improve page speed
+https://jsinibardy.com/optimize-seo-jekyll#google-analytics-tracking jekyll seo plugin
 
 # Bundler install issues
 https://medium.com/@circleninja/resolving-ruby-bundler-install-issues-in-mac-os-380be471bfb0 (thanks so much)

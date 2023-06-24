@@ -54,3 +54,14 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+social:
+  name: Srushti Ayurvedalaya
+  links:
+    - https://www.facebook.com/srushtiayurvedalaya
+    - https://instagram.com/srushtiayurvedalaya
+
+image:
+  path: /images/logo/srushti_og.png
+  height: 1080
+  weight: 2754
