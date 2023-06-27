@@ -3,7 +3,8 @@ text-align: center;
 margin: auto;
   white-space: nowrap;
   display: inline-block;
-  width: 100%;
+  // width: 100%;
+  max-width: 300px;
   line-height: 40px;
   padding: 14px;
   //box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -17,8 +18,7 @@ margin: auto;
   text-decoration: none;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
-
-  &:hover {
+   &:hover {
     color: #FEF674;
     background-color: lighten($primary, 10%);
     transform: translateY(-1px);

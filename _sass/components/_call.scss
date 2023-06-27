@@ -14,7 +14,7 @@
     flex-wrap: wrap;
   }
   .call-box-top {
-    flex: 1 0 auto;
+    // flex: 1 0 auto;
     padding: 20px;
     @include media-breakpoint-up(md) {
     }
@@ -35,7 +35,7 @@
   .call-phone {
     // padding: 10px;
     min-height: 48px;
-    min-width: 48px;
+    // min-width: 48px;
   }
   .call-email {
     a {
