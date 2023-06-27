@@ -1,29 +1,34 @@
 .page-home {
 }
 .overlay-text {
+    background-color: $color-main;
+
     @include media-breakpoint-up(md){
     position: absolute;
     top: 50%;
     left: 5%;
-    background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     font-size: 20px;
     color: black;
     }
 
 }
+.overlay-text p {
+    
+    color: white;
 
+}
 .white-h2{
     color:white;
 }
 .home-ul, .home-li {
-        color: #5c5a5a;
+        // color: #5c5a5a;
         padding: 20px;
         margin-bottom: 15px;
 }
 
 .home-li {
-    color: #5c5a5a;
+    // color: #5c5a5a;
     padding: 2px;
     margin-bottom: 2px;
 }

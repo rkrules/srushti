@@ -8,12 +8,20 @@
 .strip-grey {
   background-color: lightyellow;
 }
+.strip-color-three {
+  background-color: $color-three;
+  // background-image: url('/images/cover2.jpg');
+}
+.strip-color-four {
+  background-color: $color-four;
+  // background-image: url('/images/cover2.jpg');
+}
 .strip-color-five {
   background-color: $color-five;
   // background-image: url('/images/cover2.jpg');
 }
 .strip-color-prim {
-  background-color: $primary;
+  background-color: $color-main;
 }
 .strip-diagonal {
   transform: skewY(5deg);

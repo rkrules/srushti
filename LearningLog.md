@@ -95,3 +95,15 @@ https://medium.com/@circleninja/resolving-ruby-bundler-install-issues-in-mac-os-
 - https://socialsharepreview.com/?url=https://srushtiayurvedalaya.com/ thansk
 - https://jsinibardy.com/optimize-seo-jekyll#reduce-image-size check this
 - check this https://mdigi.tools/gradient-generator/
+- https://blog.sverrirs.com/2016/10/jekyll-passing-post-variables-to-includes.html didnt work
+- https://sayzlim.net/jekyll-include-component/ thanks
+- https://katiekodes.com/jekyll-components-wysiwyg/#few-git-based-cms-options no
+
+6.25:
+- https://www.react-reveal.com/
+- http://www.petecorey.com/blog/2019/08/05/embedding-react-components-in-jekyll-posts/
+- Reveal on scroll, paralllax
+- https://bashooka.com/coding/pure-css-parallax-scrolling-examples/
+- https://pixlr.com/x/
+- tinypng thanks
+- 

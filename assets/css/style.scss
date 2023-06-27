@@ -16,12 +16,19 @@ $black: #2f2f41;
 $white: #FFF;
 $steel: #5c5a5a;
 
-//mono
-$color-main:#006539;
-$color-two:#165e3f;
-$color-three: #00DE7E;
-$color-four: #1C5E42;
-$color-five: #00AB61;
+// //mono
+// $color-main:#006539;
+// $color-two:#165e3f;
+// $color-three: #00DE7E;
+// $color-four: #1C5E42;
+// $color-five: #00AB61;
+
+$color-main: #006539;
+$color-two: #367f55; 
+$color-three: #5b9a73; 
+$color-four: #7fb692; 
+$color-five: #a3d2b3; 
+$color-six: #c7efd4;
 
 // Links
 $link-color: $primary;
@@ -30,8 +37,11 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: "Playfair Display", serif, -apple-system;
+// $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
+// $font-family-heading: "Playfair Display", serif, -apple-system;
+$font-family-heading: "Sora", serif, -apple-system;
+$font-family-base: "Sora", sans-serif, -apple-system;
+
 
 // Footer
 $footer-background-color: $primary;
@@ -66,9 +76,9 @@ $sub-footer-text-color: $white;
 @import "components/intro-image";
 @import "components/strip";
 @import "components/feature";
-@import "components/social"
-;@import "components/mycard";
-// @import "components/fonts"; // Uncomment this line to self host font
+@import "components/social";
+@import "components/mycard";
+@import "components/fonts"; // Uncomment this line to self host font
 
 // Pages
 @import "pages/page-home";

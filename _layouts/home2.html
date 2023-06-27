@@ -3,10 +3,10 @@ layout: default
 bodyClass: "page-home"
 ---
 
-<div class="intro">
+<div class="intro strip-color-prim">
   <div class="row justify-content-start">
     {% if page.intro_image %}
-    <div class="col-12 col-md-12 col-lg-12 position-relative">
+    <div class="col-12 col-md-12 col-lg-12 position-relative ">
       <picture>
         <source srcset="{{ page.intro_image_webp | relURL }}" type="image/webp">
         <img alt="{{ page.title }}"
@@ -26,38 +26,11 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<!-- 
-  <div class="strip">
-    <div class="container pt-6 pb-6 pb-md-10">
-      <div class="row justify-content-start">
-        {% assign limit = site.home.limit_services | default: 6 %}
-        {% for service in site.services limit: limit %}
-        <div class="col-12 col-md-4 mb-1">
-          <div class="service service-summary">
-            <div class="service-content">
-              <h2 class="service-title">
-                <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-              </h2>
-              <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-auto">
-          <a class="button button-primary" href="{{ " services" | relative_url }}">View All Services</a>
-        </div>
-      </div>
-    </div>
-  </div>
--->
-
 
 {% if site.data.features %}
 <div class="strip strip-color-five">
   <div class="container pb-6 pt-4 pt-md-4 pb-md-10">
-    <h2 class="white-h2"> Services </h2>
+    <h2> Services </h2>
     <div class="row justify-content-center">
       
       {% for feature in site.data.features %}
@@ -79,7 +52,7 @@ bodyClass: "page-home"
   {% endif %}
   
   {% for item in site.data.team %}
-  <div class="strip strip-grey">
+  <div class="strip strip-color-four">
     <div class="container pb-6 pt-4 pt-md-4"> 
       <h2> Your Doctor :{{ item.title }} </h2>
 
@@ -92,7 +65,7 @@ bodyClass: "page-home"
             height="{{ item.image.height }}" /></div>
           </div>
           <div class="col-12 col-md-6 col-lg-6 mb-2">
-            <div class="feature-content">{{ item.description }}</div>
+            <div class="feature-content">
           <p> Dr Megha KS (BAMS) has been practiciing Ayurveda for 15+ years. Therapies including <strong>PANCHAKARMA</strong> are
             available to
             treat</p>
@@ -107,7 +80,7 @@ bodyClass: "page-home"
           <li class="home-li">Hairfall, pimples, black marks</li>
         </ul>
       </p>
-                 <p> <strong>Swarna Prashana</strong> will be given to children every month on *Pushya Nakshatra* - No appointments necessary.
+                 <p> <strong>Swarna Prashana</strong> will be given to children every month on <strong>Pushya Nakshatra</strong> - No appointments necessary.
           </p>
           </div>
         </div>
@@ -115,17 +88,17 @@ bodyClass: "page-home"
       Dr. Megha K S is an alumnus of ALN Rao Memorial Ayurveda medical College & carries over 15 years of consulting experience
       at some of the best Ayurvedic Centres of South India. She has been a topper in her academics & has won many awards &
       accolades during her tenure as Ayurveda Consultant. Dr. Megha is a trained Panchakarma Specialist from Kerala & also
-      specialises in identification & correction of Gynaecological issues for Women. </p>
+      specialises in identification & correction of Gynaecological issues for Women. </p></div>
+      {% include call.html show_button=true %}
       </div>
-      
+    <!-- {% include mycard.html %} -->
     </div>
-  </div>   
   {% endfor %}
-  
+  <div class="strip strip-color-five">
   <div class="container pt-2">
     <h2> Directions & Reviews </h2>
-    
     <div class="row justify-content-start">
+    
       <div class="pt-2 col-12 col-md-7 col-lg-6 " style="width: 100%';">
         <a
         href="https://maps.google.com/maps/dir//Srushti+Ayurvedalaya+1301,+19th+Main+Rd,+opp.+to+40th+Cross+Road,+5th+Block,+HBR+Layout+Bengaluru,+Karnataka+560043+India/@13.0381536,77.6300481,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bae170402d4d383:0xdf391a262874d602">
@@ -147,3 +120,5 @@ bodyClass: "page-home"
   </div>
 </div>
 </div>
+</div>
+  </div>
