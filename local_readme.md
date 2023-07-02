@@ -17,7 +17,7 @@ https://kaeruct.github.io/posts/how-to-show-preview-images-when-sharing-links-of
 
 Requirements:
 - lightspeed score
-- blog template
+- blog template [done]
 - more description from facebok
 - scheduler
 - Contact form
@@ -32,3 +32,5 @@ Requirements:
 - change logo to colorful one [done]
 - change link to button for call [done]
 - change email to whatsapp [done]
+- stories [done]
+- font [done]

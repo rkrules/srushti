@@ -19,7 +19,8 @@ collections:
     sort_by: weight
   team:
     output: true
-
+  stories:
+    output: true
 defaults:
   - scope:
       path: ""

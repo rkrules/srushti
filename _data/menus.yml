@@ -5,6 +5,9 @@ main:
   - name: "Contact"
     url: "/contact/"
     weight: 4
+  - name: "Blog"
+    url: "/blog/"
+    weight: 2
 
 footer:
   - name: "Home"

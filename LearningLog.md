@@ -107,3 +107,8 @@ https://medium.com/@circleninja/resolving-ruby-bundler-install-issues-in-mac-os-
 - https://pixlr.com/x/
 - tinypng thanks
 - 
+
+7.1
+- https://www.0xbeta.com/software/2021/10/17/Welcome-To-Alexs-Personal-Blog.html jekyll image optimization
+- https://jeffreytse.net/about.html
+- 
