@@ -17,13 +17,16 @@ https://kaeruct.github.io/posts/how-to-show-preview-images-when-sharing-links-of
 
 Requirements:
 - lightspeed score
+- contact form - https://formspree.io/ ; https://bootstrapformbuilder.com/
+- video background
+- change call to Book Now during off hours and call during office hours; 
+- email [done]
 - blog template [done]
 - more description from facebok
 - scheduler
-- Contact form
 - image cdn/optimization/lazy load
 - lazyscript [done]
-- search console
+- search console[done]
 - add meta [added a plugin]
 - add padding top for image on homepage [done]
 - add map [done]
@@ -34,3 +37,4 @@ Requirements:
 - change email to whatsapp [done]
 - stories [done]
 - font [done]
+- booking [done]
