@@ -65,7 +65,15 @@
     <script async type="text/javascript" src="{{ '/assets/js/aos.js' | relative_url }}"></script>
     <script async type="text/javascript" src="{{ '/assets/js/init.js' | relative_url }}"></script>
 
-    {% include google-analytics.html %}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0VBFQFWCPF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-0VBFQFWCPF');
+    </script>
     
   </body>
 
