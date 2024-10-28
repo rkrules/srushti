@@ -16,18 +16,10 @@ https://kaeruct.github.io/posts/how-to-show-preview-images-when-sharing-links-of
 
 
 Requirements:
-- lightspeed score
-- contact form - https://formspree.io/ ; https://bootstrapformbuilder.com/
-- video background
-- change call to Book Now during off hours and call during office hours; 
 - email [done]
 - blog template [done]
-- more description from facebok
-- scheduler
-- image cdn/optimization/lazy load
 - lazyscript [done]
 - search console[done]
-- add meta [added a plugin]
 - add padding top for image on homepage [done]
 - add map [done]
 - add sitemap [done]
@@ -38,3 +30,16 @@ Requirements:
 - stories [done]
 - font [done]
 - booking [done]
+
+- image cdn/optimization/lazy load
+- more description from facebok
+- scheduler
+- lightspeed score
+- contact form - https://formspree.io/ ; https://bootstrapformbuilder.com/
+- video background
+- change call to Book Now during off hours and call during office hours; 
+- add meta [added a plugin]
+
+
+Commands
+bundle exec jekyll serve
