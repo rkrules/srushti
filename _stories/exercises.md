@@ -1,6 +1,6 @@
 ---
 layout: ampgallery
-title: Exercises - Ayurveda
+title: Exercises and Ayurveda
 subtitle: What Ayurveda says about exercise in different seasons
 folder: /images/stories/exercise
 ---
