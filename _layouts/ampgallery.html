@@ -203,30 +203,31 @@
 
     <body>
         <!-- Cover page -->
-        <amp-story standalone title="{{page.cover.title}}" publisher="{{ site.url }}"
+        <amp-story standalone title="{{ page.title }}" publisher="{{ site.url }}"
             publisher-logo-src="/images/ampfavicon.png" poster-portrait-src="/images/amp-poster.png">
+
             <amp-story-page id="cover">
                 <amp-story-grid-layer template="vertical">
                     <div class="content">
-                        <h1>{{page.title}}</h1>
+                        <h1>{{ page.title }}</h1>
                     </div>
-                    <div class="content">{{page.subtitle}}</div>
+                    <div class="content">{{ page.subtitle }}</div>
                     <div class="content date">{{ page.date | date: "%B %-d, %Y" }}</div>
                 </amp-story-grid-layer>
             </amp-story-page>
 
-
+            <!-- Loop through images in the specified folder -->
             {% for image in site.static_files %}
-            {% if image.path contains page.folder %}
-            <amp-story-page id="page{{forloop.index}}">
+            {% if image.path contains page.image_folder %}
+            <amp-story-page id="page{{ forloop.index }}">
                 <amp-story-grid-layer template="fill">
-                    <amp-img src="{{image.path}}" width="720" height="1280" layout="responsive">
-                    </amp-img>
+                    <amp-img src="{{ image.path }}" width="720" height="1280" layout="responsive"></amp-img>
                 </amp-story-grid-layer>
             </amp-story-page>
             {% endif %}
             {% endfor %}
         </amp-story>
     </body>
+
 
 </html>
