@@ -32,6 +32,12 @@ defaults:
       type: "team"
     values:
       layout: "team"
+  - scope:
+      path: ""
+      type: "stories"
+    values:
+      layout: "ampgallery"
+      permalink: /stories/:title/
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
