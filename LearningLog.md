@@ -1,7 +1,7 @@
 ---
 title: Learning Log
 layout: page
-sitemap: 
+sitemap:
     exclude: 'yes'
 ---
 
@@ -89,7 +89,7 @@ https://medium.com/@circleninja/resolving-ruby-bundler-install-issues-in-mac-os-
 - need to look into this https://images.weserv.nl/
 - try this https://dmnfarrell.github.io/software/jekyll-galleries
 - tried this https://jekyllcodex.org/without-plugin/image-gallery/#
-- https://benhoyt.com/writings/tools-i-use-to-build-my-website/ 
+- https://benhoyt.com/writings/tools-i-use-to-build-my-website/
 - Look into this https://stackoverflow.com/questions/45983301/google-pagespeed-eliminate-render-blocking-resources-above-the-fold-caused-fro
 - Look into this https://placid.app/tools/free-open-graph-image-generator?utm_source=socialsharepreview&utm_medium=footer_og_image_generator&utm_campaign=permanent
 - https://socialsharepreview.com/?url=https://srushtiayurvedalaya.com/ thansk
@@ -106,9 +106,45 @@ https://medium.com/@circleninja/resolving-ruby-bundler-install-issues-in-mac-os-
 - https://bashooka.com/coding/pure-css-parallax-scrolling-examples/
 - https://pixlr.com/x/
 - tinypng thanks
-- 
+-
 
 7.1
 - https://www.0xbeta.com/software/2021/10/17/Welcome-To-Alexs-Personal-Blog.html jekyll image optimization
 - https://jeffreytse.net/about.html
-- 
+
+11.x
+- removed animation and fixed blog
+11.26
+- Installed statsig https://coryburt.github.io/blog/2017/10/18/External-Javascript-In-Jekyll-Github-Pages
+- Gen AI
+  - In Jekyll, you can place your JavaScript files in a few different locations:
+1. The assets folder:
+This is a common convention for storing assets like JavaScript, CSS, and images. Create an assets folder in your Jekyll project's root directory, and then place your JavaScript files inside.
+You can then reference them in your HTML files using the asset_path Liquid tag:
+Code
+
+<script src="{{ '/assets/js/myscript.js' | asset_path }}"></script>
+2. The _includes folder:
+If you want to reuse your JavaScript code across multiple pages, you can create a JavaScript include file and place it in the _includes folder.
+For example, create a file called myscript.js in _includes:
+JavaScript
+
+// Your JavaScript code here
+Then, include it in your layout or page using the include Liquid tag:
+Code
+
+{% raw %}{% include myscript.js %}{% endraw %}
+3. Directly in the HTML file:
+For small JavaScript snippets, you can embed them directly within the HTML file using the <script> tag:
+Code
+
+<script>
+  // Your JavaScript code here
+</script>
+Important Considerations:
+Jekyll's build process:
+Jekyll doesn't natively process JavaScript files, so you don't need to worry about any special build steps.
+Minification and bundling:
+For production websites, consider minifying and bundling your JavaScript files to improve performance. You can use tools like Webpack, Gulp, or Grunt for this purpose.
+Front-end frameworks:
+If you're using a front-end framework like React, Vue, or Angular, you'll need to follow their respective build processes and integrate them with your Jekyll setup.
