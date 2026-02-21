@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs:*)",
+      "Bash(find:*)",
+      "Bash(git -C /Users/ravikiran/Apps/srushti log --oneline -20)",
+      "Bash(ls:*)",
+      "Bash(bundle exec jekyll build:*)",
+      "Bash(bundle install:*)",
+      "Bash(ruby:*)",
+      "Bash(gem environment:*)",
+      "Bash(git -C /Users/ravikiran/Apps/srushti remote:*)",
+      "Bash(sudo xcode-select:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(GIT_OPTIONAL_LOCKS=0 git commit:*)",
+      "Bash(GIT_OPTIONAL_LOCKS=0 git push:*)",
+      "Bash(GIT_OPTIONAL_LOCKS=0 git pull:*)",
+      "Bash(GIT_OPTIONAL_LOCKS=0 git add:*)",
+      "Bash(GIT_OPTIONAL_LOCKS=0 git rebase:*)",
+      "Bash(GIT_OPTIONAL_LOCKS=0 git checkout:*)",
+      "Bash(GIT_OPTIONAL_LOCKS=0 git status:*)"
+    ]
+  }
+}

@@ -3,50 +3,44 @@ sitemap:
   exclude: 'yes'
 ---
 
-// Colors
-//$primary: #e5261f;
-//$primary-dark: #a01b16;
-//$secondary: #f88379;
-//$primary-dark:#05668d;
-$primary:#006539;
-$white-offset: lightgrey;
-$primary-dark:#009FE2;
-$secondary:#f0f3bd;
-$black: #2f2f41;
-$white: #FFF;
-$steel: #5c5a5a;
+// === Core Brand Colors ===
+$primary: #005c32;          // Deep forest green (slightly richer than before)
+$primary-dark: #003d22;     // Very dark green for hover states
+$secondary: #C8702A;        // Warm saffron/terracotta accent
+$secondary-light: #f5e6d3;  // Pale warm cream (section backgrounds)
+$white-offset: #f7f4f0;     // Warm off-white (replaces cold lightgrey)
+$black: #2a2a2a;            // Softer near-black
+$white: #FFFFFF;
+$steel: #5a5a5a;            // Body text grey
 
-// //mono
-// $color-main:#006539;
-// $color-two:#165e3f;
-// $color-three: #00DE7E;
-// $color-four: #1C5E42;
-// $color-five: #00AB61;
+// === Green Scale (section backgrounds) ===
+$color-main: #005c32;
+$color-two:  #1a7a4a;
+$color-three:#3d9466;
+$color-four: #a8d5b5;       // Light mint for gentle section tints
+$color-five: #e8f5ed;       // Very light mint (near-white sections)
+$color-six:  #f2faf5;       // Barely-there green tint
 
-$color-main: #006539;
-$color-two: #367f55; 
-$color-three: #5b9a73; 
-$color-four: #7fb692; 
-$color-five: #a3d2b3; 
-$color-six: #c7efd4;
+// === Warm Accent Scale ===
+$warm-one:   #C8702A;       // Saffron/terracotta
+$warm-two:   #e8a96a;       // Soft turmeric
+$warm-three: #f5e6d3;       // Pale cream
+$warm-four:  #fdf8f2;       // Near-white warm
 
 // Links
 $link-color: $primary;
 $link-decoration: none;
-$link-hover-color: lighten($primary, 10%);
-$link-hover-decoration: underline;
+$link-hover-color: $secondary;
+$link-hover-decoration: none;
 
 // Fonts
-// $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-// $font-family-heading: "Playfair Display", serif, -apple-system;
 $font-family-heading: "Sora", serif, -apple-system;
 $font-family-base: "Sora", sans-serif, -apple-system;
 
-
 // Footer
-$footer-background-color: $primary;
+$footer-background-color: $primary-dark;
 $footer-text-color: $white;
-$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-background-color: darken($primary-dark, 6%);
 $sub-footer-text-color: $white;
 
 // Bootstrap
@@ -87,10 +81,138 @@ $sub-footer-text-color: $white;
 
 body {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   font-family: $font-family-base;
+  color: $black;
+  background-color: $white;
   @include media-breakpoint-up(md) {
     font-size: 16px;
-    line-height: 1.3;
+    line-height: 1.6;
   }
 }
+
+// === Design Improvements ===
+
+// Warm section backgrounds
+.strip-warm { background-color: $warm-four; }
+.strip-cream { background-color: $warm-three; }
+
+// Accent color utilities
+.text-accent { color: $secondary; }
+.bg-accent { background-color: $secondary; }
+
+// Section heading divider — a warm underline under h2s in sections
+.section-heading {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  &::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: $secondary;
+    border-radius: 2px;
+    margin-top: 8px;
+  }
+}
+
+// Improved feature cards
+.feature {
+  border: 1px solid darken($color-five, 5%);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: $white;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.10);
+  }
+  .feature-title {
+    color: $primary;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .feature-content {
+    color: $steel;
+    font-size: 0.93rem;
+    line-height: 1.6;
+  }
+}
+
+// Improved buttons
+.button {
+  background-color: $secondary;
+  color: $white;
+  border-radius: 6px;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  text-transform: none;
+  padding: 14px 24px;
+  &:hover {
+    background-color: darken($secondary, 10%);
+    color: $white;
+  }
+}
+
+.button-primary {
+  background-color: $primary;
+  color: $white;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: none;
+  &:hover {
+    background-color: darken($primary, 8%);
+    color: $white;
+  }
+}
+
+.button-small {
+  background-color: $secondary;
+  color: $white;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  text-transform: none;
+  font-weight: 600;
+}
+
+// Header improvements
+.header {
+  border-bottom: 2px solid $color-six;
+  background: $white;
+}
+
+// Call box improvements
+.call-box-top {
+  background: $warm-four;
+  border-radius: 8px 8px 0 0;
+}
+.call-box-bottom {
+  background: $primary;
+  border-radius: 0 0 8px 8px;
+  .button {
+    background-color: $secondary;
+    color: $white;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+
+// Overlay text on hero
+.overlay-text {
+  background: linear-gradient(135deg, rgba(0,60,30,0.82) 0%, rgba(0,44,22,0.68) 100%);
+  border-radius: 0;
+  h1, h2 { color: $white; }
+  p { color: rgba(255,255,255,0.92); }
+}
+
+// Blog index cards
+.blog-summary {
+  border-left: 4px solid $secondary;
+  padding-left: 1rem;
+  border-bottom: 1px solid $color-five;
+  h2 a:hover { color: $secondary; }
+}
+
+// Breadcrumb links
+nav[aria-label="breadcrumb"] a:hover { color: $secondary; }

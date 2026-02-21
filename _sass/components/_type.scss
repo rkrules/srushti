@@ -1,35 +1,41 @@
 p {
-  line-height: 26px;
-  // color: $steel;
+  line-height: 1.7;
+  color: $steel;
   font-family: $font-family-base;
-  margin-bottom: 20px;
+  margin-bottom: 1.1rem;
 }
 h1 {
-  font-size: 30px;
+  font-size: 2rem;
   font-family: $font-family-heading;
+  font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 20px;
+  color: $black;
+  margin-bottom: 1rem;
   @include media-breakpoint-up(md) {
-    font-size: 32px;
-    line-height: 1.2;
+    font-size: 2.6rem;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 3rem;
   }
 }
 h2 {
-  font-size: 24px;
+  font-size: 1.4rem;
   font-family: $font-family-heading;
-  line-height: 1.4;
-  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: $black;
+  margin-bottom: 0.75rem;
   @include media-breakpoint-up(md) {
-    font-size: 26px;
-    line-height: 1.4;
+    font-size: 1.7rem;
   }
 }
 h3 {
-  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 600;
   line-height: 1.4;
+  color: $black;
   @include media-breakpoint-up(md) {
-    font-size: 20px;
-    line-height: 1.4;
+    font-size: 1.15rem;
   }
 }
 ul,
@@ -37,7 +43,12 @@ ol {
   margin: 0;
   padding: 0;
   li {
-    padding: 0;
+    padding: 2px 0;
     margin: 0;
+    line-height: 1.6;
   }
+}
+strong {
+  color: $primary;
+  font-weight: 700;
 }

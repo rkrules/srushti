@@ -3,127 +3,145 @@ layout: default
 bodyClass: "page-home"
 ---
 
-<div class="intro strip-color-prim">
-  <div class="row justify-content-start">
-    {% if page.intro_image %}
-    <div class="col-12 col-md-12 col-lg-12 position-relative ">
-      <picture>
-        <source srcset="{{ page.intro_image_webp | relURL }}" type="image/webp">
-        <img alt="{{ page.title }}"
-        class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
-        src="{{ page.intro_image | relURL }}" />
-        <div class="overlay-text">
-          <div class="pt-2 col-12 col-md-12 col-lg-12 position-absolute" style="width: 100%';">
-            {{ content }}
-            {% if page.show_call_box %}
-            {% include call.html show_button=true %}
-            {% endif %}
-          </div>
+<!-- ========== HERO ========== -->
+<div class="hero-section">
+  {% if page.intro_image %}
+  <div class="hero-image-wrap">
+    <picture>
+      <source srcset="{{ page.intro_image_webp | relURL }}" type="image/webp">
+      <img alt="{{ page.title }}"
+           class="hero-img{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
+           src="{{ page.intro_image | relURL }}" />
+    </picture>
+    <div class="hero-overlay">
+      <div class="container">
+        <div class="hero-content">
+          {{ content }}
+          {% if page.show_call_box %}
+          {% include call.html show_button=true %}
+          {% endif %}
         </div>
-      </picture>
-    </div>
-    {% endif %}
-  </div>
-</div>
-
-
-{% if site.data.features %}
-<div class="strip strip-color-five">
-  <div class="container pb-6 pt-4 pt-md-4 pb-md-10">
-    <h2> Services </h2>
-    <div class="row justify-content-center">
-      
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img class="lazyload" alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}"
-            width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-            {% endif %}
-            <h2 class="feature-title">{{ feature.title }}</h2>
-            <div class="feature-content">{{ feature.description }}</div>
-          </div>
-        </div>
-        {% endfor %}
-        
       </div>
     </div>
   </div>
   {% endif %}
-  
-  {% for item in site.data.team %}
-  <div class="strip strip-color-four">
-    <div class="container pb-6 pt-4 pt-md-4"> 
-      <h2> Your Doctor :{{ item.title }} </h2>
+</div>
 
-      <div class="row justify-content-center">
-        
-        
-        <div class="col-12 col-md-6 col-lg-6 mb-2">
-          <div class="feature-image"><img class="lazyload" alt="{{ item.title }} logo"
-            src="{{item.image.url | relative_url }}" width="{{ item.image.width }}"
-            height="{{ item.image.height }}" /></div>
+<!-- ========== TRUST BAR ========== -->
+<div class="trust-bar">
+  <div class="container">
+    <div class="trust-bar-inner">
+      <div class="trust-item">
+        <span class="trust-icon">🌿</span>
+        <span>15+ Years Experience</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">🏅</span>
+        <span>Certified Panchakarma Specialist</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">📍</span>
+        <span>HBR Layout, Bangalore</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">📞</span>
+        <span>+91 99806 16152</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== SERVICES ========== -->
+{% if site.data.features %}
+<section class="section-services">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-heading">Our Treatments</h2>
+      <p class="section-subheading">Authentic Ayurvedic therapies personalised to your constitution and needs</p>
+    </div>
+    <div class="row justify-content-center">
+      {% for feature in site.data.features %}
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="feature feature-card">
+          {% if feature.image %}
+          <div class="feature-image">
+            <img class="lazyload" alt="{{ feature.title }}"
+                 src="{{ feature.image.url | relative_url }}"
+                 width="{{ feature.image.width }}" height="{{ feature.image.height }}" />
           </div>
-          <div class="col-12 col-md-6 col-lg-6 mb-2">
-            <div class="feature-content">
-          <p> Dr Megha KS (BAMS) has been practiciing Ayurveda for 15+ years. Therapies including <strong>PANCHAKARMA</strong> are
-            available to
-            treat</p>
-         <p><ul class="home-ul">
-          <li class="home-li">Gynaecological Disorders</li>
-          <li class="home-li">Arthritis, Rheumatic Arthritis, Other Joint Pains</li>
-          <li class="home-li">Skin Disorders - Psoriasis, Eczema, etc</li>
-          <li class="home-li">Asthma, Sinusitis, Tonsillitis</li>
-          <li class="home-li">Over weight (Obesity), Hyper &amp; Hypothyroidism</li>
-          <li class="home-li">Migraine</li>
-          <li class="home-li">Gastritis, Acidity, Irritational Bowl Syndrome</li>
-          <li class="home-li">Hairfall, pimples, black marks</li>
-        </ul>
-      </p>
-                 <p> <strong>Swarna Prashana</strong> will be given to children every month on <strong>Pushya Nakshatra</strong> - No appointments necessary.
-          </p>
-          </div>
+          {% endif %}
+          <h3 class="feature-title">{{ feature.title }}</h3>
+          <div class="feature-content">{{ feature.description }}</div>
         </div>
-          <div class="col-12 col-md-8 col-lg-8 mb-2">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
 
-      <p> The founding doctor,
-      Dr. Megha K S is an alumnus of ALN Rao Memorial Ayurveda medical College & carries over 15 years of consulting experience
-      at some of the best Ayurvedic Centres of South India. She has been a topper in her academics & has won many awards &
-      accolades during her tenure as Ayurveda Consultant. Dr. Megha is a trained Panchakarma Specialist from Kerala & also
-      specialises in identification & correction of Gynaecological issues for Women. </p>
-    {% include call.html show_button=true %}
-  </div>
-      
-      </div>
-      </div>
-    <!-- {% include mycard.html %} -->
+<!-- ========== DOCTOR ========== -->
+{% for item in site.data.team %}
+<section class="section-doctor">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-heading">Your Physician</h2>
     </div>
-  {% endfor %}
-  <div class="strip strip-color-five">
-  <div class="container pt-2">
-    <h2> Directions & Reviews </h2>
-    <div class="row justify-content-start">
-    <div class="col-12 col-md-12 col-lg-12 mb-2"> 
-        Srushti Ayurvedalaya is located in HBR Layout, close to IT Hub of Bangalore “Manyatha Tech Park”.
-        <a
-        href="https://maps.google.com/maps/dir//Srushti+Ayurvedalaya+1301,+19th+Main+Rd,+opp.+to+40th+Cross+Road,+5th+Block,+HBR+Layout+Bengaluru,+Karnataka+560043+India/@13.0381536,77.6300481,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bae170402d4d383:0xdf391a262874d602">
-        <span class="button_small" style="width:100%;">
-          Directions
-        </span>
-      </a>
-      <iframe class="lazyload"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.961013589446!2d77.62785941744384!3d13.038153600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae170402d4d383%3A0xdf391a262874d602!2sSrushti%20Ayurvedalaya!5e0!3m2!1sen!2sus!4v1687106643533!5m2!1sen!2sus"
-      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    
+    <div class="row align-items-center">
+      <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
+        <div class="doctor-image-wrap">
+          <img class="lazyload doctor-photo" alt="{{ item.title }}"
+               src="{{ item.image.url | relative_url }}"
+               width="{{ item.image.width }}" height="{{ item.image.height }}" />
+        </div>
+      </div>
+      <div class="col-12 col-md-7">
+        <h3 class="doctor-name">{{ item.title }}</h3>
+        <p class="doctor-credentials">BAMS | Panchakarma Specialist | 15+ Years Experience</p>
+        <p>Dr. Megha K S is an alumnus of ALN Rao Memorial Ayurveda Medical College with over 15 years of consulting experience at some of the finest Ayurvedic centres of South India. A topper in academics, she is a trained Panchakarma Specialist from Kerala and specialises in Gynaecological disorders.</p>
+        <p>She treats a wide range of conditions:</p>
+        <ul class="doctor-conditions">
+          <li>Gynaecological Disorders &amp; PCOD/PCOS</li>
+          <li>Arthritis, Rheumatic Arthritis &amp; Joint Pain</li>
+          <li>Skin Disorders — Psoriasis, Eczema</li>
+          <li>Asthma, Sinusitis &amp; Respiratory conditions</li>
+          <li>Obesity, Thyroid &amp; Metabolic disorders</li>
+          <li>Migraine, Stress &amp; Neurological conditions</li>
+          <li>Gastritis, Acidity &amp; Digestive disorders</li>
+        </ul>
+        <p class="swarnaprashana-note">
+          <strong>Swarnaprashana</strong> for children is given every month on <strong>Pushya Nakshatra</strong> — no appointment needed.
+        </p>
+        {% include call.html show_button=true %}
+      </div>
     </div>
-    
-  <!-- <div class="col-12 col-md-6 col-lg-6 mb-2">
-     {% include image_gallery.html folder="/images/reviews" %}
-    {% include mycard.html %}
-  </div> -->
-</div>
-</div>
-</div>
   </div>
+</section>
+{% endfor %}
+
+<!-- ========== LOCATION ========== -->
+<section class="section-location">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-heading">Find Us</h2>
+      <p class="section-subheading">Located in HBR Layout, Bangalore — close to Manyata Tech Park</p>
+    </div>
+    <div class="row">
+      <div class="col-12 mb-3">
+        <a href="https://maps.google.com/maps/dir//Srushti+Ayurvedalaya+1301,+19th+Main+Rd,+opp.+to+40th+Cross+Road,+5th+Block,+HBR+Layout+Bengaluru,+Karnataka+560043+India/@13.0381536,77.6300481,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bae170402d4d383:0xdf391a262874d602"
+           class="button button-directions" target="_blank" rel="noopener">
+          Get Directions
+        </a>
+      </div>
+      <div class="col-12">
+        <div class="map-wrap">
+          <iframe class="lazyload"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.961013589446!2d77.62785941744384!3d13.038153600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae170402d4d383%3A0xdf391a262874d602!2sSrushti%20Ayurvedalaya!5e0!3m2!1sen!2sus!4v1687106643533!5m2!1sen!2sus"
+            width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
