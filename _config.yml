@@ -1,4 +1,5 @@
 baseurl: '/'
+url: 'https://srushtiayurvedalaya.com'
 permalink: pretty
 title: 'Srushti Ayurvedalaya'
 
@@ -43,12 +44,7 @@ sass:
   style: compressed # possible values: nested expanded compact compressed
 
 plugins:
-  - jekyll-environment-variables
-  - jekyll-compress-images
-  - jekyll-seo-tag
-  
-compress_images:
-  images_path: "images/logo/*.{gif,png,jpg,jpeg,svg}"
+  - jekyll-feed
 
 exclude:
   - Gemfile
