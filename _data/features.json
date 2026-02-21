@@ -1,83 +1,56 @@
 [
   {
     "title": "Consultation",
-    "description": "Treatment for all ailments, mainly focussing on joints pain, back ache, skin diseases, metabolic diseases and menstrual diseases.",
-    "image": {
-      "url": "images/features/drmegha1.png",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "title": "Swarnaprashana",
-    "description": "Monthly immunity booster medicines given to children.",
-    "image": {
-      "url": "images/features/swarna.jpg",
-      "width": 80,
-      "height": 80
-    }
+    "icon": "🩺",
+    "description": "Personalised Ayurvedic consultation with Dr. Megha K S. Conditions treated include joint pain, back ache, skin diseases, metabolic disorders, and menstrual health — tailored to your body constitution (Prakriti).",
+    "url": "/services/panchakarma/"
   },
   {
     "title": "Panchakarma",
-    "description": "Panchakarma - five detoxification intense therapies- Vamana, Virechana, Basti, Nasya, Raktamokshana",
-    "image": {
-      "url": "images/features/massage2.jpg",
-      "width": 80,
-      "height": 80
-    }
+    "icon": "🌿",
+    "description": "Ayurveda's premier detoxification therapy — five classical purification procedures including Vamana, Virechana, Basti, Nasya, and Raktamokshana. Deeply cleanses accumulated toxins and restores doshic balance.",
+    "url": "/services/panchakarma/"
   },
   {
-    "title": "Oil Massage",
-    "description": "Regular oil massage with steam",
-    "image": {
-      "url": "images/features/oil.jpg",
-      "width": 80,
-      "height": 80
-    }
+    "title": "Shirodhara",
+    "icon": "💧",
+    "description": "A continuous stream of warm medicated oil flows over the forehead, deeply calming the nervous system. Highly effective for insomnia, chronic stress, anxiety, migraine, and hypertension.",
+    "url": "/services/shirodhara/"
+  },
+  {
+    "title": "Swarnaprashana",
+    "icon": "✨",
+    "description": "Classical Ayurvedic gold immunisation for children from birth to 16 years. Given on Pushya Nakshatra each month. Boosts immunity, enhances memory and cognitive development. No appointment needed.",
+    "url": "/services/swarnaprashana/"
+  },
+  {
+    "title": "Abhyanga & Steam",
+    "icon": "♨️",
+    "description": "Full-body medicated oil massage followed by herbal steam therapy. Nourishes tissues, improves circulation, reduces muscle stiffness, and prepares the body for deeper Panchakarma therapies.",
+    "url": "/services/panchakarma/"
   },
   {
     "title": "Udwartana",
-    "description": "Powder massage for weight loss",
-    "image": {
-      "url": "images/features/gradient.png",
-      "width": 80,
-      "height": 80
-    }
+    "icon": "🌾",
+    "description": "Therapeutic dry powder massage using herbal powders. Stimulates fat metabolism, improves lymphatic drainage, and is particularly effective for weight management and reducing subcutaneous fat.",
+    "url": "/services/weight-management/"
   },
-{
-  "title": "Pinda Sweda",
-  "description": "Different types of pottali massages usually given for joints pain",
-  "image": {
-    "url": "images/features/gradient1.png",
-    "width": 80,
-    "height": 80
+  {
+    "title": "Pinda Sweda",
+    "icon": "🌱",
+    "description": "Bolus massage using bundles of herbal leaves or medicated rice (Navarakizhi). Highly effective for joint pain, arthritis, sports injuries, and neuromuscular conditions.",
+    "url": "/services/joint-pain/"
+  },
+  {
+    "title": "Women's Health",
+    "icon": "🌸",
+    "description": "Specialised Ayurvedic care for PCOD/PCOS, menstrual irregularities, hormonal imbalances, and fertility support. Uttara Basti and classical herbal formulations for lasting results.",
+    "url": "/services/womens-health/"
+  },
+  {
+    "title": "Skin Disorders",
+    "icon": "🫧",
+    "description": "Internal detoxification-led treatment for psoriasis, eczema, acne, and pigmentation. Virechana and Takra Dhara address the root cause rather than suppressing symptoms.",
+    "url": "/services/skin-disorders/"
   }
-},
-{
-  "title": "Shirodhara",
-  "description": "Treatment for Insomnia, hypertension etc",
-  "image": {
-    "url": "images/features/gradient2.png",
-    "width": 80,
-    "height": 80
-  }
-},
-{
-  "title": "Seka/Dhara ",
-  "description": "For skin diseases. Oil Dhara for injuries like ligament tear",
-  "image": {
-    "url": "images/features/gradient3.png",
-    "width": 80,
-    "height": 80
-  }
-},
-{
-  "title": "Uttara Basti ",
-  "description": "For gynaecological problems",
-  "image": {
-    "url": "images/features/massage.jpg",
-    "width": 80,
-    "height": 80
-  }
-}
 ]

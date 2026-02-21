@@ -59,20 +59,25 @@ bodyClass: "page-home"
       <h2 class="section-heading">Our Treatments</h2>
       <p class="section-subheading">Authentic Ayurvedic therapies personalised to your constitution and needs</p>
     </div>
-    <div class="row justify-content-center">
+    <div class="row">
       {% for feature in site.data.features %}
       <div class="col-12 col-md-6 col-lg-4 mb-4">
+        {% if feature.url %}
+        <a href="{{ feature.url }}" class="feature-card-link">
+        {% endif %}
         <div class="feature feature-card">
-          {% if feature.image %}
-          <div class="feature-image">
-            <img class="lazyload" alt="{{ feature.title }}"
-                 src="{{ feature.image.url | relative_url }}"
-                 width="{{ feature.image.width }}" height="{{ feature.image.height }}" />
+          <div class="feature-icon-wrap">
+            <span class="feature-icon">{{ feature.icon }}</span>
           </div>
-          {% endif %}
           <h3 class="feature-title">{{ feature.title }}</h3>
           <div class="feature-content">{{ feature.description }}</div>
+          {% if feature.url %}
+          <span class="feature-readmore">Learn more →</span>
+          {% endif %}
         </div>
+        {% if feature.url %}
+        </a>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
