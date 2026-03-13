@@ -1,24 +1,32 @@
 .page-service {
+  background: $warm-four;
+
   .service-single {
     .title {
       color: $primary;
-      border-bottom: 3px solid $secondary;
-      padding-bottom: 0.5rem;
+      font-family: $font-family-heading;
+      font-weight: 300;
+      font-style: italic;
+      border-bottom: 2px solid rgba($secondary, 0.4);
+      padding-bottom: 0.6rem;
       margin-bottom: 1.5rem;
     }
 
     .content {
       > p:first-of-type {
-        font-size: 1.1rem;
-        line-height: 1.7;
+        font-size: 1.05rem;
+        line-height: 1.75;
         color: $steel;
         margin-bottom: 1.5rem;
       }
 
       h2 {
         color: $primary;
-        margin-top: 1.5rem;
-        margin-bottom: 0.5rem;
+        font-family: $font-family-heading;
+        font-weight: 400;
+        margin-top: 1.75rem;
+        margin-bottom: 0.6rem;
+        font-style: normal;
       }
 
       ul {
@@ -27,18 +35,20 @@
         margin-bottom: 1.25rem;
 
         li {
-          padding: 4px 0 4px 1.25rem;
+          padding: 4px 0 4px 1.35rem;
           position: relative;
           color: $steel;
-          line-height: 1.6;
+          font-size: 0.95rem;
+          font-family: $font-family-base;
+          line-height: 1.65;
 
           &::before {
             content: '✦';
             color: $secondary;
-            font-size: 0.6rem;
+            font-size: 0.55rem;
             position: absolute;
             left: 0;
-            top: 7px;
+            top: 8px;
           }
         }
       }

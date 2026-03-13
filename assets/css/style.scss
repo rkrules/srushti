@@ -4,12 +4,12 @@ sitemap:
 ---
 
 // === Core Brand Colors ===
-$primary: #005c32;          // Deep forest green (slightly richer than before)
-$primary-dark: #003d22;     // Very dark green for hover states
-$secondary: #C8702A;        // Warm saffron/terracotta accent
+$primary: #1E3D2F;          // Richer, deeper forest green
+$primary-dark: #122618;     // Deep ink for hover states
+$secondary: #A67C3D;        // Aged gold replaces terracotta orange
 $secondary-light: #f5e6d3;  // Pale warm cream (section backgrounds)
-$white-offset: #f7f4f0;     // Warm off-white (replaces cold lightgrey)
-$black: #2a2a2a;            // Softer near-black
+$white-offset: #F2EAD9;     // Richer warm cream
+$black: #1C1A17;            // Warm ink, not cold grey-black
 $white: #FFFFFF;
 $steel: #5a5a5a;            // Body text grey
 
@@ -22,10 +22,10 @@ $color-five: #e8f5ed;       // Very light mint (near-white sections)
 $color-six:  #f2faf5;       // Barely-there green tint
 
 // === Warm Accent Scale ===
-$warm-one:   #C8702A;       // Saffron/terracotta
-$warm-two:   #e8a96a;       // Soft turmeric
-$warm-three: #f5e6d3;       // Pale cream
-$warm-four:  #fdf8f2;       // Near-white warm
+$warm-one:   #A67C3D;       // Aged gold
+$warm-two:   #C9A46A;       // Soft gold-tan
+$warm-three: #F2EAD9;       // Rich warm cream
+$warm-four:  #F9F4EC;       // Parchment (body background)
 
 // Links
 $link-color: $primary;
@@ -34,7 +34,7 @@ $link-hover-color: $secondary;
 $link-hover-decoration: none;
 
 // Fonts
-$font-family-heading: "Sora", serif, -apple-system;
+$font-family-heading: "Cormorant Garamond", Georgia, serif;
 $font-family-base: "Sora", sans-serif, -apple-system;
 
 // Footer
@@ -84,7 +84,7 @@ body {
   line-height: 1.5;
   font-family: $font-family-base;
   color: $black;
-  background-color: $white;
+  background-color: $warm-four;
   @include media-breakpoint-up(md) {
     font-size: 16px;
     line-height: 1.6;
@@ -140,40 +140,45 @@ body {
   }
 }
 
-// Improved buttons
+// Improved buttons — luxury: deep green bg + warm gold text
 .button {
-  background-color: $secondary;
-  color: $white;
-  border-radius: 6px;
-  letter-spacing: 0.03em;
+  background-color: $primary;
+  color: #E8C87A;
+  border-radius: 4px;
+  letter-spacing: 0.08em;
   font-weight: 600;
-  text-transform: none;
+  text-transform: uppercase;
+  font-size: 13px;
   padding: 14px 24px;
+  font-family: $font-family-base;
   &:hover {
-    background-color: darken($secondary, 10%);
-    color: $white;
+    background-color: $primary-dark;
+    color: #E8C87A;
+    transform: translateY(-1px);
   }
 }
 
 .button-primary {
   background-color: $primary;
-  color: $white;
-  border-radius: 6px;
+  color: #E8C87A;
+  border-radius: 4px;
   font-weight: 600;
-  text-transform: none;
+  font-family: $font-family-base;
   &:hover {
-    background-color: darken($primary, 8%);
-    color: $white;
+    background-color: $primary-dark;
+    color: #E8C87A;
   }
 }
 
 .button-small {
-  background-color: $secondary;
-  color: $white;
+  background-color: $primary;
+  color: #E8C87A;
   border-radius: 4px;
-  font-size: 0.875rem;
-  text-transform: none;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
   font-weight: 600;
+  font-family: $font-family-base;
 }
 
 // Header improvements
@@ -184,17 +189,18 @@ body {
 
 // Call box improvements
 .call-box-top {
-  background: $warm-four;
-  border-radius: 8px 8px 0 0;
+  background: rgba(255,255,255,0.75);
 }
 .call-box-bottom {
-  background: $primary;
-  border-radius: 0 0 8px 8px;
+  background: rgba($primary, 0.06);
   .button {
-    background-color: $secondary;
-    color: $white;
+    background-color: $primary;
+    color: #E8C87A;
     width: 100%;
     margin-bottom: 8px;
+    &:hover {
+      background-color: $primary-dark;
+    }
   }
 }
 

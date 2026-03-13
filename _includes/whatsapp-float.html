@@ -1,0 +1,65 @@
+<a class="whatsapp-float"
+   href="https://wa.me/919980616152?text=Hi%2C+I+have+a+question+before+booking+an+appointment."
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Chat with us on WhatsApp">
+  <img src="/images/social/whatsapp.svg" alt="WhatsApp" width="32" height="32">
+  <span class="whatsapp-float-label">Chat with us</span>
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(37,211,102,0.4);
+  z-index: 9999;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: visible;
+}
+.whatsapp-float:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 24px rgba(37,211,102,0.55);
+  text-decoration: none;
+}
+.whatsapp-float img {
+  width: 32px;
+  height: 32px;
+  display: block;
+  filter: brightness(0) invert(1);
+}
+.whatsapp-float-label {
+  position: absolute;
+  right: 64px;
+  background: #1C1A17;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Sora', sans-serif;
+  white-space: nowrap;
+  padding: 5px 10px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+.whatsapp-float:hover .whatsapp-float-label {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .whatsapp-float {
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 16px;
+  }
+  .whatsapp-float-label { display: none; }
+}
+</style>

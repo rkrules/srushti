@@ -1,7 +1,7 @@
 .footer {
   background: $footer-background-color;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   .footer-inner {
     display: flex;
     justify-content: space-between;
@@ -14,10 +14,11 @@
     }
   }
   .footer-title {
-    color: #ffffff;
-    font-size: 1.3rem;
+    color: rgba(255,255,255,0.95);
+    font-size: 1.4rem;
     font-family: $font-family-heading;
-    font-weight: bold;
+    font-weight: 400;
+    letter-spacing: 0.02em;
     margin-bottom: 10px;
     @include media-breakpoint-up(sm) {
       margin: 0;
@@ -29,14 +30,18 @@
     padding: 0;
     li {
       color: $footer-text-color;
-      font-size: 1rem;
+      font-size: 0.9rem;
       a {
-        color: $footer-text-color;
+        color: rgba(255,255,255,0.8);
         text-decoration: none;
         padding: 12px 14px 12px 0;
         display: block;
+        font-family: $font-family-base;
+        font-variant: small-caps;
+        letter-spacing: 0.07em;
         &:hover {
-          text-decoration: underline;
+          color: $warm-two;
+          text-decoration: none;
         }
       }
     }
@@ -57,7 +62,7 @@
         a {
           display: inline-block;
           height: 40px;
-          padding: 10px 8px 10px 8px;
+          padding: 10px 8px;
         }
       }
     }
