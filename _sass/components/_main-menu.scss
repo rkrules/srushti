@@ -9,24 +9,44 @@
     justify-content: flex-start;
     > li {
       list-style: none;
-      font-size: 1rem;
+      font-size: 0.8rem;
       > a {
-        padding: 10px 12px 10px 12px;
+        padding: 10px 14px;
         display: inline-block;
-        font-weight: normal;
+        font-weight: 500;
         text-decoration: none;
         color: $primary;
+        font-family: $font-family-base;
+        font-variant: small-caps;
+        letter-spacing: 0.1em;
+        text-transform: lowercase;
         &:hover {
-          text-decoration: underline;
+          color: $secondary;
+          text-decoration: none;
+        }
+      }
+      // "Book" nav item → outlined pill (Book has target="_blank")
+      > a[target="_blank"] {
+        border: 1.5px solid $primary;
+        border-radius: 20px;
+        padding: 7px 18px;
+        color: $primary;
+        background: transparent;
+        font-variant: small-caps;
+        letter-spacing: 0.1em;
+        transition: all 0.18s ease;
+        &:hover {
+          background: $primary;
+          color: $warm-four;
+          text-decoration: none;
         }
       }
       &.active {
         > a {
-          font-weight: bold;
+          font-weight: 600;
           text-decoration: none;
           &:hover {
             text-decoration: none;
-            transition: all 225ms ease-in 0s;
           }
         }
       }

@@ -1,28 +1,26 @@
 .button {
-text-align: center;
-margin: auto;
+  text-align: center;
+  margin: auto;
   white-space: nowrap;
   display: inline-block;
   width: 100%;
-  // max-width: 300px;
   line-height: 40px;
   padding: 14px;
-  //box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   background: $primary;
   border-radius: 4px;
-  font-size: 14px;
-  font-weight:bold;
+  font-size: 13px;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.025em;
-  color: #FEF674;
+  letter-spacing: 0.08em;
+  color: #E8C87A;
   text-decoration: none;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
-   &:hover {
-    color: #FEF674;
-    background-color: lighten($primary, 10%);
+  font-family: $font-family-base;
+  &:hover {
+    color: #E8C87A;
+    background-color: $primary-dark;
     transform: translateY(-1px);
-    //box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     text-decoration: none;
   }
 }
@@ -35,23 +33,21 @@ margin: auto;
   width: 100%;
   line-height: 20px;
   padding: 8px;
-  //box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   background: $primary;
   border-radius: 4px;
-  font-size: 14px;
-  font-weight: normal;
+  font-size: 13px;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.025em;
-  color: #FEF674;
+  letter-spacing: 0.07em;
+  color: #E8C87A;
   text-decoration: none;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
-
+  font-family: $font-family-base;
   &:hover {
-    color: #FEF674;
-    background-color: lighten($primary, 10%);
+    color: #E8C87A;
+    background-color: $primary-dark;
     transform: translateY(-1px);
-    //box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     text-decoration: none;
   }
 }

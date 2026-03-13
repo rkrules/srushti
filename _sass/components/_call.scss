@@ -1,8 +1,9 @@
 .call {
   overflow: hidden;
-  background-color: $white-offset;
-  border-radius: 4px;
-  // box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  background-color: rgba(255,255,255,0.88);
+  border: 1px solid rgba($secondary, 0.3);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
   width: 100%;
   display: flex;
   align-items: center;
@@ -14,29 +15,27 @@
     flex-wrap: wrap;
   }
   .call-box-top {
-    // flex: 1 0 auto;
     padding: 20px;
-    @include media-breakpoint-up(md) {
-    }
+    background: rgba(255,255,255,0.7);
   }
   .call-box-bottom {
-    flex: 2 0  auto;
+    flex: 2 0 auto;
     padding: 20px;
-    border-top: 1px solid darken($white-offset, 5%);
+    border-top: 1px solid rgba($secondary, 0.15);
     @include media-breakpoint-up(sm) {
       flex: 2 0 auto;
       border: none;
     }
   }
-  
+
   .call-name {
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-size: 1.05rem;
+    font-weight: 600;
+    font-family: $font-family-heading;
+    color: $black;
   }
   .call-phone {
-    // padding: 10px;
     min-height: 48px;
-    // min-width: 48px;
     line-height: 20px;
   }
   .call-email {
