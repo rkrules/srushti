@@ -29,4 +29,4 @@ Unlike crash diets or extreme exercise regimes, Ayurvedic weight management:
 
 Results vary by individual, but patients typically notice improved digestion and energy within the first two weeks. Sustained weight reduction occurs gradually over 4–12 weeks depending on the programme.
 
-[Book a consultation](/booking/) to discuss a personalised weight management plan with Dr. Megha K S.
+<a href="https://admin.ayurgrid.com/doctor/websiteappointments/createAppointment?doctor_id=672" target="_blank" rel="noopener noreferrer">Book a consultation</a> to discuss a personalised weight management plan with Dr. Megha K S.

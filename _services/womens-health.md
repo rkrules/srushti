@@ -36,4 +36,4 @@ PCOS involves multiple systems including metabolism, hormones, and reproductive 
 
 Results are gradual but sustainable, and many women see improved cycle regularity within 3–6 months.
 
-[Book a consultation](/booking/) with Dr. Megha K S to discuss your individual needs.
+<a href="https://admin.ayurgrid.com/doctor/websiteappointments/createAppointment?doctor_id=672" target="_blank" rel="noopener noreferrer">Book a consultation</a> with Dr. Megha K S to discuss your individual needs.

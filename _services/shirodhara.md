@@ -36,4 +36,4 @@ Depending on your constitution and condition, Dr. Megha K S selects the appropri
 - **Takra Dhara** — medicated buttermilk (cooling, ideal for Pitta conditions like psoriasis)
 - **Kashaya Dhara** — herbal decoction (for specific conditions)
 
-[Book your Shirodhara session](/booking/) at Srushti Ayurvedalaya, Bangalore.
+<a href="https://admin.ayurgrid.com/doctor/websiteappointments/createAppointment?doctor_id=672" target="_blank" rel="noopener noreferrer">Book your Shirodhara session</a> at Srushti Ayurvedalaya, Bangalore.

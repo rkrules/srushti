@@ -9,7 +9,8 @@ main:
     url: "/blog/"
     weight: 2
   - name: "Book"
-    url: "/booking/"
+    url: "https://admin.ayurgrid.com/doctor/websiteappointments/createAppointment?doctor_id=672"
+    target: "_blank"
     weight: 4
 
 footer:

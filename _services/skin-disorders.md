@@ -30,4 +30,4 @@ Ayurveda recognises skin disorders (*Kushtha*) as conditions involving all three
 
 Conventional treatments often suppress symptoms with steroids or antihistamines. Ayurvedic treatment aims to eliminate the underlying imbalance through systematic detoxification, leading to more lasting improvement — particularly for chronic conditions like psoriasis and eczema.
 
-[Book a consultation](/booking/) with Dr. Megha K S at Srushti Ayurvedalaya.
+<a href="https://admin.ayurgrid.com/doctor/websiteappointments/createAppointment?doctor_id=672" target="_blank" rel="noopener noreferrer">Book a consultation</a> with Dr. Megha K S at Srushti Ayurvedalaya.

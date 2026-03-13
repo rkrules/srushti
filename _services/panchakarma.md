@@ -32,4 +32,4 @@ A Panchakarma programme at Srushti Ayurvedalaya is fully personalised based on y
 
 Programmes typically run from **7 to 21 days** depending on the condition. Dr. Megha K S designs each programme after a thorough initial consultation.
 
-Ready to begin? [Book a consultation](/booking/) with Dr. Megha today.
+Ready to begin? <a href="https://admin.ayurgrid.com/doctor/websiteappointments/createAppointment?doctor_id=672" target="_blank" rel="noopener noreferrer">Book a consultation</a> with Dr. Megha today.

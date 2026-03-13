@@ -35,4 +35,4 @@ Alongside treatments, Dr. Megha K S provides guidance on:
 
 Ayurvedic treatment for mental wellness is gentle, non-addictive, and works to rebuild resilience rather than just manage symptoms.
 
-[Book a consultation](/booking/) at Srushti Ayurvedalaya, Bangalore.
+<a href="https://admin.ayurgrid.com/doctor/websiteappointments/createAppointment?doctor_id=672" target="_blank" rel="noopener noreferrer">Book a consultation</a> at Srushti Ayurvedalaya, Bangalore.

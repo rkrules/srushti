@@ -30,4 +30,4 @@ Joint pain, arthritis, and musculoskeletal disorders are primarily classified as
 
 Dr. Megha K S first assesses whether the condition is primarily *Ama* (toxin)-based (as in rheumatoid arthritis) or *Vata*-based degeneration (as in osteoarthritis), since the treatment approach differs significantly. This personalised assessment is key to effective outcomes.
 
-[Book a consultation](/booking/) to discuss your condition with Dr. Megha.
+<a href="https://admin.ayurgrid.com/doctor/websiteappointments/createAppointment?doctor_id=672" target="_blank" rel="noopener noreferrer">Book a consultation</a> to discuss your condition with Dr. Megha.
