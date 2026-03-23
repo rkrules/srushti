@@ -1,0 +1,177 @@
+{
+  "conversations": [
+    {
+      "id": "015fbee8-63a8-41ac-8a46-b21919630cf7",
+      "title": "[Request interrupted by user for tool use]",
+      "description": "I'll implement this plan in order. Let me start by reading the files I need to modify.",
+      "category": "feature",
+      "status": "in-review",
+      "lastMessage": "```\nThat will sync it to GitHub. Want me to do that?",
+      "agents": [
+        {
+          "id": "claude-main",
+          "name": "Claude",
+          "avatar": "",
+          "isActive": true
+        }
+      ],
+      "gitBranch": "master",
+      "hasError": false,
+      "isInterrupted": false,
+      "hasQuestion": true,
+      "isRateLimited": false,
+      "lastActivity": {
+        "toolName": "Edit",
+        "summary": ".../plans/resilient-foraging-bear.md",
+        "outputHint": "The file /Users/ravikiran/.claude/plans/resilient-foraging-bear.md has been updated successfully.",
+        "status": "completed"
+      },
+      "referencedImage": "/Users/ravikiran/Apps/srushti/images/social/whatsapp.svg",
+      "createdAt": "2026-03-13T01:07:59.290Z",
+      "updatedAt": "2026-03-13T01:19:44.476Z",
+      "filePath": "/Users/ravikiran/.claude/projects/-Users-ravikiran-Apps-srushti/015fbee8-63a8-41ac-8a46-b21919630cf7.jsonl",
+      "workspacePath": "/Users/ravikiran/Apps/srushti",
+      "provider": "claude-code",
+      "previousStatus": "in-review"
+    },
+    {
+      "id": "138b3c2e-ab42-44e2-b25d-e218e1e4d6f9",
+      "title": "[Request interrupted by user for tool use]",
+      "description": "I'll start by taking before screenshots and exploring the codebase in parallel.",
+      "category": "task",
+      "status": "needs-input",
+      "lastMessage": "Good picture. Let me write the plan now.",
+      "agents": [
+        {
+          "id": "claude-main",
+          "name": "Claude",
+          "avatar": "",
+          "isActive": true
+        }
+      ],
+      "gitBranch": "redesign/luxury",
+      "hasError": false,
+      "isInterrupted": false,
+      "hasQuestion": true,
+      "isRateLimited": false,
+      "lastActivity": {
+        "toolName": "Edit",
+        "summary": ".../plans/resilient-foraging-bear.md",
+        "outputHint": "The file /Users/ravikiran/.claude/plans/resilient-foraging-bear.md has been updated successfully.",
+        "status": "completed"
+      },
+      "createdAt": "2026-03-13T00:49:48.061Z",
+      "updatedAt": "2026-03-13T01:07:37.284Z",
+      "filePath": "/Users/ravikiran/.claude/projects/-Users-ravikiran-Apps-srushti/138b3c2e-ab42-44e2-b25d-e218e1e4d6f9.jsonl",
+      "workspacePath": "/Users/ravikiran/Apps/srushti",
+      "provider": "claude-code",
+      "previousStatus": "in-review"
+    },
+    {
+      "id": "721f09f0-2073-44fe-af7c-fb495605e5d9",
+      "title": "[Request interrupted by user for tool use]",
+      "description": "All 12 files staged, `.claudine/` excluded.",
+      "category": "task",
+      "status": "needs-input",
+      "lastMessage": "Good — I have everything I need. Writing the plan now.",
+      "agents": [
+        {
+          "id": "claude-main",
+          "name": "Claude",
+          "avatar": "",
+          "isActive": true
+        }
+      ],
+      "gitBranch": "master",
+      "hasError": false,
+      "isInterrupted": false,
+      "hasQuestion": true,
+      "isRateLimited": false,
+      "lastActivity": {
+        "toolName": "Edit",
+        "summary": ".../plans/resilient-foraging-bear.md",
+        "outputHint": "The file /Users/ravikiran/.claude/plans/resilient-foraging-bear.md has been updated successfully.",
+        "status": "completed"
+      },
+      "createdAt": "2026-03-13T00:33:34.763Z",
+      "updatedAt": "2026-03-13T00:48:21.293Z",
+      "filePath": "/Users/ravikiran/.claude/projects/-Users-ravikiran-Apps-srushti/721f09f0-2073-44fe-af7c-fb495605e5d9.jsonl",
+      "workspacePath": "/Users/ravikiran/Apps/srushti",
+      "provider": "claude-code",
+      "previousStatus": "in-review"
+    },
+    {
+      "id": "9a2b57ce-4abc-4940-96d0-fcd1f899af00",
+      "title": "[Request interrupted by user for tool use]",
+      "description": "I'll implement all the changes from the plan. Let me read the files first.",
+      "category": "feature",
+      "status": "needs-input",
+      "lastMessage": "This is a different task — committing and pushing to GitHub Pages. Let me quickly check the repo setup.",
+      "agents": [
+        {
+          "id": "claude-main",
+          "name": "Claude",
+          "avatar": "",
+          "isActive": true
+        }
+      ],
+      "gitBranch": "master",
+      "hasError": false,
+      "isInterrupted": false,
+      "hasQuestion": true,
+      "isRateLimited": false,
+      "lastActivity": {
+        "toolName": "Edit",
+        "summary": ".../plans/resilient-foraging-bear.md",
+        "outputHint": "The file /Users/ravikiran/.claude/plans/resilient-foraging-bear.md has been updated successfully.",
+        "status": "completed"
+      },
+      "createdAt": "2026-03-13T00:27:41.092Z",
+      "updatedAt": "2026-03-13T00:30:55.958Z",
+      "filePath": "/Users/ravikiran/.claude/projects/-Users-ravikiran-Apps-srushti/9a2b57ce-4abc-4940-96d0-fcd1f899af00.jsonl",
+      "workspacePath": "/Users/ravikiran/Apps/srushti",
+      "provider": "claude-code",
+      "previousStatus": "in-review"
+    },
+    {
+      "id": "e44033cd-e4e4-4e71-8f4c-847f3f76bbb6",
+      "title": "[Request interrupted by user for tool use]",
+      "description": "I now have a thorough understanding of the codebase. Let me write the plan.",
+      "category": "task",
+      "status": "in-review",
+      "lastMessage": "- Service page styling\n- Blog improvements",
+      "agents": [
+        {
+          "id": "claude-main",
+          "name": "Claude",
+          "avatar": "",
+          "isActive": false
+        },
+        {
+          "id": "agent-Explore",
+          "name": "Explore codebase structure and features",
+          "avatar": "",
+          "isActive": false
+        }
+      ],
+      "gitBranch": "master",
+      "hasError": false,
+      "isInterrupted": false,
+      "hasQuestion": false,
+      "isRateLimited": false,
+      "lastActivity": {
+        "toolName": "Bash",
+        "summary": "GIT_OPTIONAL_LOCKS=0 git checkout master && GIT_OPTIONAL_LOCKS=0 git merge de...",
+        "outputHint": "23 lines of output",
+        "status": "completed"
+      },
+      "createdAt": "2026-02-20T17:28:32.465Z",
+      "updatedAt": "2026-02-21T04:01:07.881Z",
+      "filePath": "/Users/ravikiran/.claude/projects/-Users-ravikiran-Apps-srushti/e44033cd-e4e4-4e71-8f4c-847f3f76bbb6.jsonl",
+      "workspacePath": "/Users/ravikiran/Apps/srushti",
+      "provider": "claude-code",
+      "icon": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%236b7280%22%20opacity%3D%220.1%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2225%22%20cy%3D%2240%22%20r%3D%228.5%22%20fill%3D%22hsl(243%2C%2060%25%2C%2050%25)%22%20opacity%3D%220.7%22%2F%3E%0A%3Crect%20x%3D%2236%22%20y%3D%227%22%20width%3D%228%22%20height%3D%228%22%20fill%3D%22hsl(243%2C%2060%25%2C%2050%25)%22%20opacity%3D%220.7%22%2F%3E%0A%3Cpolygon%20points%3D%2211%2C20.5%2016.5%2C31.5%205.5%2C31.5%22%20fill%3D%22hsl(243%2C%2060%25%2C%2050%25)%22%20opacity%3D%220.7%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fsvg%3E"
+    }
+  ],
+  "lastUpdated": "2026-03-13T01:19:45.068Z"
+}

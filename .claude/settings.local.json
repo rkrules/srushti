@@ -19,7 +19,10 @@
       "Bash(GIT_OPTIONAL_LOCKS=0 git add:*)",
       "Bash(GIT_OPTIONAL_LOCKS=0 git rebase:*)",
       "Bash(GIT_OPTIONAL_LOCKS=0 git checkout:*)",
-      "Bash(GIT_OPTIONAL_LOCKS=0 git status:*)"
+      "Bash(GIT_OPTIONAL_LOCKS=0 git status:*)",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "mcp__plugin_playwright_playwright__browser_navigate"
     ]
   }
 }
